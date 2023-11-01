@@ -1,8 +1,8 @@
-function ProductDetail() {
+function ProductDetail(props) {
 
     return (
       <>
-        <p>Producto</p>
+        <p>{props.producto.nombre}</p>
       </>
     )
   }
